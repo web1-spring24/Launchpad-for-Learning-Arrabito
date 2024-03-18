@@ -1,0 +1,65 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+body {
+    background-color: rgba(102, 192, 215, 1);
+}
+
+section {
+    text-align:center;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: -100px;
+    background-color: rgba(218, 55, 123, 1);
+    font-size: 24px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(156, 31, 83);
+    border-spacing: 500px;
+    
+} 
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(218, 55, 123, 1)
+
+}
+
+button {
+    padding: 1.5%;
+    border: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: rgb(255, 242, 0);
+    border: 2px solid rgb(148, 141, 105);
+    font-size: 16px;
+
+}
+
+main {
+    align-items: center;
+
+}
+
+h2{
+    margin-top:3%;
+    text-align: center;
+}
+
+article{
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:3%;
+    margin-bottom:5%;
+}
+
+h4 {
+    margin-left:13%;
+    margin-bottom:2%;
+}
