@@ -3,10 +3,7 @@ body {
     margin: 0px 0px;
     font-family: "fredoka";
     font-family: "inter";
-    
 }
-
-
 
 #bannertxt {
     display: flex;
@@ -71,18 +68,33 @@ a {
     margin-right: 5%;
 }
 
+@media (max-width: 1075px) {
+    #About-Me {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #title {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 #abouttxt {
     padding: 30px 30px;
     font-size: 24px;
     color: white;
-    background-color: #8D66C6;
     border-radius: 20px;
-    border-color: #3A1F61;
-    border-width: 100px;
+    background-color: #8D66C6;
+    border: solid;
+    border-color: #6035A0;
 }
 
 #titletxt{
     background-color: #8D66C6;
+    font-size: 84px;
     border-radius: 20px;
     padding: 15px 15px;
 }
+
