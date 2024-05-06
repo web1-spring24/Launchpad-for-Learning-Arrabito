@@ -1,0 +1,115 @@
+body {
+    background-color: #9197F8;
+    margin: 0px 0px;
+    font-family: "fredoka";
+    font-family: "inter";
+}
+
+#bannertxt {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #8D66C6;
+    font-family: "inter";
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: #8D66C6; 
+    margin: 0px 0px;
+    padding: 2% 2%;
+
+}
+
+.nav-button {
+    background-color: #626AD3;
+    border-radius: 35px;
+    border-style: none;
+    padding: 30px 30px;
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "fredoka";
+}
+
+.nav-button:hover {
+    transition: background-color 1s, color 1;
+    transition-duration: .3s;
+    color: #626AD3;
+    background-color: white;
+}
+
+a {
+    color: white;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    font-size: 56px;
+    color: white;
+    font-weight: 450;
+    font-family: "fredoka";
+}
+
+#titletxt{
+    background-color: #8D66C6;
+    font-size: 84px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    width: 600px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top:5% ;
+    margin-bottom: 5%;
+  }
+
+.search-input {
+    flex: 1;
+    padding: 12px;
+    max-width: 400px;
+    border: 1px solid white;
+    border-radius: 35px;
+    font-size: 20px;
+  }
+
+.product {
+    width: 48%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+
+}
+
+.prducts, img {
+    width: 300px;
+    border-radius: 30px;
+  }
+
+.ptitle {
+    background-color: #8D66C6;
+}
+
+@media (max-width: 1050px) {
+    .product {
+        width: 100%;
+    }
+}
+

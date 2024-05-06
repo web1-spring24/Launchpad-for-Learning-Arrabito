@@ -6,3 +6,7 @@ if(jQuery) {
 else {
     console. log("no jquery")
 }
+
+$("#burger").click(function(){
+    $("#nav").toggleClass("display-none-mobile");
+});

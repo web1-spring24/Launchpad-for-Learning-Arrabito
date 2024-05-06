@@ -17,7 +17,6 @@ body {
 }
 
 #nav {
-    display: flex;
     justify-content: center;
     background-color: #8D66C6; 
     margin: 0px 0px;
@@ -68,6 +67,14 @@ a {
     margin-right: 5%;
 }
 
+#burger {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
 @media (max-width: 1075px) {
     #About-Me {
         flex-wrap: wrap;
@@ -78,6 +85,32 @@ a {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+    .nav-button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 36px;
+    }
+
+    #burger {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #626AD3;
+        width: 200px;
+        color: white;
+        gap: 20px;
+        border-radius: 20px;
+        font-size: 30px;
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 50px;
+    }
+
+    .display-none-mobile {
+        display: none;
     }
 }
 
@@ -91,10 +124,22 @@ a {
     border-color: #6035A0;
 }
 
+
+
+
+
+#burger:hover dropdown li{
+    display: block; 
+}
+
+
+
+
 #titletxt{
     background-color: #8D66C6;
     font-size: 84px;
     border-radius: 20px;
     padding: 15px 15px;
+    width: 600px;
 }
 
