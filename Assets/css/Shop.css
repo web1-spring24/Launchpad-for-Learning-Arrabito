@@ -17,12 +17,10 @@ body {
 }
 
 #nav {
-    display: flex;
     justify-content: center;
     background-color: #8D66C6; 
     margin: 0px 0px;
     padding: 2% 2%;
-
 }
 
 .nav-button {
@@ -101,15 +99,69 @@ a {
 .prducts, img {
     width: 300px;
     border-radius: 30px;
-  }
+    
+}
 
 .ptitle {
+    background-color: #626AD3;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.pdescription {
     background-color: #8D66C6;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#burger {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
 }
 
 @media (max-width: 1050px) {
     .product {
         width: 100%;
     }
+    #title {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 36px;
+    }
+    #burger {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #626AD3;
+        width: 200px;
+        color: white;
+        gap: 20px;
+        border-radius: 20px;
+        font-size: 30px;
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 50px;
+    }
+    .display-none-mobile {
+        display: none;
+    }
+}
+
+#burger:hover dropdown li{
+    display: block; 
 }
 
